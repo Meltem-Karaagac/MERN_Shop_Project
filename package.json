@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/Meltem-Karaagac/MERN_Shop_Project.git"
   },
-  "homepage": "https://github.com/Meltem-Karaagac/MERN_Shop_Project.git#readme",
+  "homepage": "https://github.com/Meltem-Karaagac/MERN_Shop_Project.git",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
