@@ -11,6 +11,7 @@ const UserListScreen = ({ history }) => {
 
   const userList = useSelector((state) => state.userList)
   const { loading, error, users } = userList
+  console.log(users);
 
   const userLogin = useSelector((state) => state.userLogin)
   const { userInfo } = userLogin
@@ -22,7 +23,7 @@ const UserListScreen = ({ history }) => {
     if (userInfo && userInfo.isAdmin) {
       dispatch(listUsers())
     } else {
-      history.push('/login')
+      // history.push('/login')
     }
   }, [dispatch, history, successDelete, userInfo])
 
@@ -62,7 +63,7 @@ const UserListScreen = ({ history }) => {
                   {user.isAdmin ? (
                     <i className='fas fa-check' style={{ color: 'green' }}></i>
                   ) : (
-                    <i className='fas fa-times' style={{ color: 'red' }}></i>
+                    <i className='fas fa-times' style={{ color: ' #60a3bc' }}></i>
                   )}
                 </td>
                 <td>

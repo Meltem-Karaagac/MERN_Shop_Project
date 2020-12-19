@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Meltem-Karaagac/MERN_Shop_Project.git"
+    "url": "git+https://github.com/FaziletKosure/mern_shop_project.git"
   },
   "keywords": [],
-  "author": "Meltem",
+  "author": "Fazilet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Meltem-Karaagac/MERN_Shop_Project.git"
+    "url": "https://github.com/FaziletKosure/mern_shop_project/issues"
   },
-  "homepage": "https://github.com/Meltem-Karaagac/MERN_Shop_Project.git",
+  "homepage": "https://github.com/FaziletKosure/mern_shop_project#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",

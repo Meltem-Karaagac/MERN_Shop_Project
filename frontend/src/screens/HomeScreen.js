@@ -1,34 +1,3 @@
-// import React,{useState,useEffect} from 'react'
-// import {Row, Col} from 'react-bootstrap'
-// import axios from 'axios'
-// // import products from '../products'
-// import Product from '../components/Product'
-
-// const HomeScreen = () => {
-//     const [products,setProducts]=useState([])
-//     useEffect(()=>{
-//         const fetchProducts=async()=>{
-//             const {data}= await axios.get('/api/products')
-//             setProducts(data)
-//         }
-//       fetchProducts()
-//     },[])
-//     return (
-//         <>
-//           <h1>Latest Products</h1>
-//           <Row>
-//               {products.map(product=>(
-//                   <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
-//                   <Product {...product}/>
-//                   </Col>
-//               ))}
-//           </Row>  
-//         </>
-//     )
-// }
-
-// export default HomeScreen
-
 
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
@@ -39,6 +8,7 @@ import Message from '../components/Message'
 import Loader from '../components/Loader'
 import Paginate from '../components/Paginate'
 import ProductCarousel from '../components/ProductCarousel'
+
 import Meta from '../components/Meta'
 import { listProducts } from '../actions/productActions'
 
@@ -58,15 +28,17 @@ const HomeScreen = ({ match }) => {
 
   return (
     <>
+     
       <Meta />
       {!keyword ? (
+       
         <ProductCarousel />
       ) : (
         <Link to='/' className='btn btn-light'>
           Go Back
         </Link>
       )}
-      <h1>Latest Products</h1>
+      <h1 className='home-title'>Latest Products</h1>
       {loading ? (
         <Loader />
       ) : error ? (
@@ -87,6 +59,7 @@ const HomeScreen = ({ match }) => {
           />
         </>
       )}
+     
     </>
   )
 }
