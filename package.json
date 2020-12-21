@@ -13,16 +13,15 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FaziletKosure/mern_shop_project.git"
+    "type": "git+https://github.com/Meltem-Karaagac/MERN_Shop_Project.git"
   },
   "keywords": [],
-  "author": "Fazilet",
+  "author": "Meltem",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FaziletKosure/mern_shop_project/issues"
+    "url": "https://github.com/Meltem-Karaagac/MERN_Shop_Project.git"
   },
-  "homepage": "https://github.com/FaziletKosure/mern_shop_project#readme",
+  "homepage": "https://github.com/Meltem-Karaagac/MERN_Shop_Project.git#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",

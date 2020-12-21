@@ -16,17 +16,7 @@ function HeroSection() {
         >
           GET STARTED
         </Button>
-        {/* <Link to='/services'>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-          path='/services'
-        >
-          WATCH TRAILER <i className='far fa-play-circle' />
-        </Button>
-        </Link> */}
+
       </div>
     </div>
   );
