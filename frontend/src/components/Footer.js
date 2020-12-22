@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
       </Col>
       <Col className="text-center py-4" >
-        Copyright &copy; FaziShop
+        Copyright &copy; F & M
                   </Col>
       <Col className="text-right py-4 footer-text" >
         <a

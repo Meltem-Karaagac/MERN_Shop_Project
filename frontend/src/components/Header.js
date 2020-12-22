@@ -5,7 +5,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import SearchBox from './SearchBox'
 import { logout } from '../actions/userActions'
-const Admin = <i class="fas fa-user-circle"></i>
+
 const Header = () => {
   const dispatch = useDispatch()
 
@@ -29,7 +29,7 @@ const Header = () => {
             <i class='far fa-eye' />
           </Link>
           <LinkContainer to='/hero'>
-            <Navbar.Brand>FaziShop</Navbar.Brand>
+            <Navbar.Brand>F&M FASHION CO</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
@@ -61,11 +61,8 @@ const Header = () => {
                   </Nav.Link>
                   </LinkContainer>
                 )}
-              <Nav.Link>
-
-              </Nav.Link>
               {userInfo && userInfo.isAdmin && (
-                <NavDropdown title={Admin} id='adminmenu'>
+                <NavDropdown title='Admin' id='adminmenu'>
                   <LinkContainer to='/admin/userlist'>
                     <NavDropdown.Item>Users</NavDropdown.Item>
                   </LinkContainer>
