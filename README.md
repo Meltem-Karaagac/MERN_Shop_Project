@@ -1,3 +1,5 @@
- http://3.140.92.119/ 
+ Hi, I'm Meltem, 
  
- https://mern-shop-project1.herokuapp.com/
+ AWS Link is here :  http://3.140.92.119/ 
+ 
+ Heroku Link is here : https://mern-shop-project1.herokuapp.com/
