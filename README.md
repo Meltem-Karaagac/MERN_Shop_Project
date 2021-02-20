@@ -4,4 +4,4 @@
  AWS Link is here :  http://3.140.92.119/ 
 
 
- HEROKU lINK IS HERE:  https://mern-shop-project1.herokuapp.com/
+ HEROKU Link is here :  https://mern-shop-project1.herokuapp.com/
