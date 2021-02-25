@@ -148,6 +148,42 @@ const products = [
     rating: 5,
     numReviews: 10,
   },
+  {
+    name: 'CHANEL EARRINGS',
+    image: '/images/EARRINGS.png',
+    description:
+      '18K white gold, diamonds, cultured pearls',
+    brand: 'CHANEL',
+    category: 'EARRINGS',
+    price: 9499,
+    countInStock: 10,
+    rating: 2,
+    numReviews: 10,
+  },
+  {
+    name: 'CHANEL GOLD WRISTBAND',
+    image: '/images/BRACELET.png',
+    description:
+      '18K white gold, diamonds, cultured pearls',
+    brand: 'CHANEL',
+    category: 'WRISTBAND',
+    price: 13499,
+    countInStock: 10,
+    rating: 5,
+    numReviews: 10,
+  },
+  {
+    name: 'CHANEL WRISTBAND',
+    image: '/images/CUFF.png',
+    description:
+      '18K white gold, diamonds, cultured pearls',
+    brand: 'CHANEL',
+    category: 'WRISTBAND',
+    price: 15499,
+    countInStock: 10,
+    rating: 3,
+    numReviews: 10,
+  },
 ]
 
 module.exports = products
