@@ -42,7 +42,7 @@ const Footer = () => {
           >
             <i class='fab fa-twitter' />
           </a>
-          {/* <a
+          <a
             class='social-icon-link linkedin'
             href='https://www.linkedin.com/in/faziletkosure/'
             target='_blank'
@@ -57,7 +57,7 @@ const Footer = () => {
             aria-label='LinkedIn'
           >
             <i class='fab fa-linkedin' />
-          </a> */}
+          </a>
         </div>
       </Col>
       <Col className="text-center py-4" >
